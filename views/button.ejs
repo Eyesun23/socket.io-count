@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <title></title>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src='/socket.io/socket.io.js'></script>
+    <style>
+    </style>
+  </head>
+  <body>
+    <h1><%= count %></h1>
+    <div class='btn' id="count">
+      <a href="/count">Push to update the count</a>
+    </div>
+    <div class='reset'>
+      <a href="/reset">Reset</a>
+    </div>
+    <script src="/js/counter.js"></script>
+  </body>
+</html>
